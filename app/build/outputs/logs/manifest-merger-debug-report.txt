@@ -1,0 +1,188 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:2:1-60:12
+	package
+		ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml
+		INJECTED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml
+		INJECTED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml
+		INJECTED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.android.gms:play-services-maps:10.2.6] C:\Users\Ryan\.android\build-cache\d5b7fe3bf01fa4d89bf13209c00e21a45e2fab3d\output\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:6:5-79
+MERGED from [com.google.android.gms:play-services-maps:10.2.6] C:\Users\Ryan\.android\build-cache\d5b7fe3bf01fa4d89bf13209c00e21a45e2fab3d\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:7:5-76
+	android:name
+		ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:7:22-73
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:9:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:10:5-75
+	android:name
+		ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:10:22-72
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:11:5-98
+	android:name
+		ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:11:22-95
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:13:22-76
+application
+ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:15:5-58:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Ryan\.android\build-cache\7798efbcd22bfbc7e541e346354948b7a59054e4\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\Ryan\.android\build-cache\674b5014da8bbf8ea5be4282a496120e013db762\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Ryan\.android\build-cache\3cefe7dae4d2eac5de1edf696fcf29e8f9531d40\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Ryan\.android\build-cache\093e87f755e06cf7bb71b05763c172910d03f4c6\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Ryan\.android\build-cache\2bca1ec9efb61fa6243bd3fe57d90fe5357e257f\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Ryan\.android\build-cache\d8efd5e1eb5f86f2b9b547636072a5fa5db98fab\output\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-maps:10.2.6] C:\Users\Ryan\.android\build-cache\d5b7fe3bf01fa4d89bf13209c00e21a45e2fab3d\output\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.6] C:\Users\Ryan\.android\build-cache\6c042306405793a146fcc0f3d652c208a1b17920\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.6] C:\Users\Ryan\.android\build-cache\e53f32caceb80d72542d33b090e12715590c66f6\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.6] C:\Users\Ryan\.android\build-cache\c012bb7ae675ced057230979c0cb84512cc95b48\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Ryan\.android\build-cache\63eb1b9a6524a51ef4b6ae44ee29294125a81b63\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Ryan\.android\build-cache\4e56065d91a984de6ca6dab141d9b16d3f1c5c86\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Ryan\.android\build-cache\4267f1d0b74c958a06231f7d24a86ac1fc7b5868\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Ryan\.android\build-cache\d27865057285ca5e1cd0579cbd0eb7f05c2daa73\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Ryan\.android\build-cache\4e683d7814f0ef665c7c649fcb981ea19b665b97\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Ryan\.android\build-cache\71f51a72663047786ef3d351f810130c5ae1075d\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:18:9-41
+	android:supportsRtl
+		ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:20:9-35
+	android:roundIcon
+		ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:19:9-51
+	android:allowBackup
+		ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:16:9-35
+	android:icon
+		ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:17:9-46
+	android:theme
+		ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:21:9-43
+activity#com.tambalin.tambalin.MainActivity
+ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:22:9-28:20
+	android:name
+		ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:22:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:23:13-27:29
+action#android.intent.action.MAIN
+ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:26:27-74
+activity#com.tambalin.tambalin.SideBarNavigation
+ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:29:9-55
+	android:name
+		ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:29:19-52
+activity#com.tambalin.tambalin.ListTambalBan
+ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:30:9-38:20
+	android:theme
+		ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:32:13-50
+	android:name
+		ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:31:13-42
+activity#com.tambalin.tambalin.DetailTambalBan
+ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:39:9-41:53
+	android:theme
+		ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:41:13-50
+	android:name
+		ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:40:13-44
+activity#com.tambalin.tambalin.AddLokasi
+ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:42:9-47
+	android:name
+		ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:42:19-44
+meta-data#com.google.android.gms.version
+ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:51:9-53:69
+MERGED from [com.google.android.gms:play-services-basement:10.2.6] C:\Users\Ryan\.android\build-cache\c012bb7ae675ced057230979c0cb84512cc95b48\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:53:13-66
+	android:name
+		ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:52:13-58
+meta-data#com.google.android.geo.API_KEY
+ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:54:9-56:55
+	android:value
+		ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:56:13-52
+	android:name
+		ADDED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml:55:13-58
+uses-sdk
+INJECTED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Ryan\.android\build-cache\7798efbcd22bfbc7e541e346354948b7a59054e4\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\Ryan\.android\build-cache\674b5014da8bbf8ea5be4282a496120e013db762\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Ryan\.android\build-cache\3cefe7dae4d2eac5de1edf696fcf29e8f9531d40\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Ryan\.android\build-cache\093e87f755e06cf7bb71b05763c172910d03f4c6\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Ryan\.android\build-cache\2bca1ec9efb61fa6243bd3fe57d90fe5357e257f\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Ryan\.android\build-cache\5b5ab1bb76c99dd91e10ab211d1e31eff8f7a6ef\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Ryan\.android\build-cache\d8efd5e1eb5f86f2b9b547636072a5fa5db98fab\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:10.2.6] C:\Users\Ryan\.android\build-cache\d5b7fe3bf01fa4d89bf13209c00e21a45e2fab3d\output\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.6] C:\Users\Ryan\.android\build-cache\6c042306405793a146fcc0f3d652c208a1b17920\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.6] C:\Users\Ryan\.android\build-cache\e53f32caceb80d72542d33b090e12715590c66f6\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.6] C:\Users\Ryan\.android\build-cache\c012bb7ae675ced057230979c0cb84512cc95b48\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Ryan\.android\build-cache\63eb1b9a6524a51ef4b6ae44ee29294125a81b63\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Ryan\.android\build-cache\4e56065d91a984de6ca6dab141d9b16d3f1c5c86\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Ryan\.android\build-cache\4267f1d0b74c958a06231f7d24a86ac1fc7b5868\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Ryan\.android\build-cache\d27865057285ca5e1cd0579cbd0eb7f05c2daa73\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Ryan\.android\build-cache\4e683d7814f0ef665c7c649fcb981ea19b665b97\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Ryan\.android\build-cache\71f51a72663047786ef3d351f810130c5ae1075d\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Ryan\.android\build-cache\674b5014da8bbf8ea5be4282a496120e013db762\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml
+		INJECTED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml
+		INJECTED from D:\KULIAH\SMT6\Android_Ryan\TambalIn\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\Ryan\.android\build-cache\674b5014da8bbf8ea5be4282a496120e013db762\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Ryan\.android\build-cache\3cefe7dae4d2eac5de1edf696fcf29e8f9531d40\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Ryan\.android\build-cache\093e87f755e06cf7bb71b05763c172910d03f4c6\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Ryan\.android\build-cache\2bca1ec9efb61fa6243bd3fe57d90fe5357e257f\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Ryan\.android\build-cache\5b5ab1bb76c99dd91e10ab211d1e31eff8f7a6ef\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Ryan\.android\build-cache\d8efd5e1eb5f86f2b9b547636072a5fa5db98fab\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Ryan\.android\build-cache\63eb1b9a6524a51ef4b6ae44ee29294125a81b63\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Ryan\.android\build-cache\4e56065d91a984de6ca6dab141d9b16d3f1c5c86\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Ryan\.android\build-cache\4267f1d0b74c958a06231f7d24a86ac1fc7b5868\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Ryan\.android\build-cache\d27865057285ca5e1cd0579cbd0eb7f05c2daa73\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Ryan\.android\build-cache\4e683d7814f0ef665c7c649fcb981ea19b665b97\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Ryan\.android\build-cache\71f51a72663047786ef3d351f810130c5ae1075d\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Ryan\.android\build-cache\674b5014da8bbf8ea5be4282a496120e013db762\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Ryan\.android\build-cache\674b5014da8bbf8ea5be4282a496120e013db762\output\AndroidManifest.xml:26:9-47
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:10.2.6] C:\Users\Ryan\.android\build-cache\d5b7fe3bf01fa4d89bf13209c00e21a45e2fab3d\output\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:10.2.6] C:\Users\Ryan\.android\build-cache\d5b7fe3bf01fa4d89bf13209c00e21a45e2fab3d\output\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:10.2.6] C:\Users\Ryan\.android\build-cache\d5b7fe3bf01fa4d89bf13209c00e21a45e2fab3d\output\AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.6] C:\Users\Ryan\.android\build-cache\6c042306405793a146fcc0f3d652c208a1b17920\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.6] C:\Users\Ryan\.android\build-cache\6c042306405793a146fcc0f3d652c208a1b17920\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.6] C:\Users\Ryan\.android\build-cache\6c042306405793a146fcc0f3d652c208a1b17920\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.6] C:\Users\Ryan\.android\build-cache\6c042306405793a146fcc0f3d652c208a1b17920\output\AndroidManifest.xml:19:19-85

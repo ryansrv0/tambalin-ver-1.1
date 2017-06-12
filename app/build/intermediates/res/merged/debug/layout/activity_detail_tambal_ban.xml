@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="64dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="64dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@mipmap/ic_launcher"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/eventImageView"
+                android:layout_alignParentEnd="true"
+                android:layout_height="150dp" />
+            <TextView
+                android:text="Nama Tambal Ban"
+                android:textStyle="bold"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:layout_alignParentStart="true"
+                android:layout_margin="8dp"
+                android:id="@+id/namaTextView" />
+            <TextView
+                android:text="Alamat Tambal Ban"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/iconDate"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                android:id="@+id/addressTextView" />
+            <View
+                android:layout_width="match_parent"
+                android:id="@+id/view1"
+                android:background="@android:color/darker_gray"
+                android:layout_height="2dp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_deskripsi"
+                    android:id="@+id/iconDate" />
+                <TextView
+                    android:text="Deskripsi Tambal Ban"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/iconDate"
+                    android:id="@+id/descriptionLabel" />
+                <TextView
+                    android:text="Lorem Ipsum blablablala deksripsi acara ini adalah
+sekedear bualan belaka. maka dari itu sesunggihnya hdlajlak oifds ja fdi dnsalkklk
+lkfdlk e lajksndmf, ona,ms d;o ;onasd fnv jndf lm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/descriptionTextView"
+                    android:layout_below="@+id/descriptionLabel"
+                    android:layout_alignStart="@+id/descriptionLabel" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:id="@+id/view2"
+                android:background="@android:color/darker_gray"
+                android:layout_height="2dp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_profile"
+                    android:id="@+id/iconSpeaker" />
+                <TextView
+                    android:text="Pemilik"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/iconSpeaker"
+                    android:id="@+id/speakerLabel" />
+                <TextView
+                    android:text="Ali Mahmudi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/speakerLabel"
+                    android:layout_toEndOf="@+id/iconSpeaker"
+                    android:id="@+id/ownerTextView" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:id="@+id/view3"
+                android:background="@android:color/darker_gray"
+                android:layout_height="2dp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_clock"
+                    android:id="@+id/iconLocation" />
+                <TextView
+                    android:text="Lokasi"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/iconLocation"
+                    android:id="@+id/locationLabel" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:text="Ulasan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:gravity="bottom|center_horizontal"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>
