@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/icontukangtambal"
+        android:layout_weight="0.07"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Nama Tambal Ban"
+        android:id="@+id/nameTextView"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Alamat "
+        android:id="@+id/addressTextView"
+        android:layout_below="@+id/nameTextView"
+        android:layout_toEndOf="@+id/imageView" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="08.00 - 21.00"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/waktuBuka"
+        android:layout_below="@+id/addressTextView"
+        android:layout_toEndOf="@+id/imageView"/>
+
+</RelativeLayout>

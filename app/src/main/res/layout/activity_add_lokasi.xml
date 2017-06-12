@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.tambalin.tambalin.AddLokasi"
+    android:background="#620A">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/iconNama"
+                android:src="@drawable/ic_namatb"/>
+            <TextView
+                android:text="Nama Tambal Ban"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:layout_marginLeft="8dp"
+                android:layout_toEndOf="@+id/iconNama"
+                android:id="@+id/namaTextView" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/namaTextView"
+                android:layout_alignStart="@id/namaTextView"
+                />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:id="@+id/view1"
+            android:background="@android:color/darker_gray"
+            android:layout_height="2dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/iconAddress"
+                android:src="@drawable/ic_lokasi"/>
+            <TextView
+                android:textStyle="bold"
+                android:text="Alamat Tambal Ban"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/iconAddress"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                android:id="@+id/addressTextView" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:layout_below="@+id/addressTextView"
+                android:lines="2"
+                android:id="@+id/addressEditText"
+                android:layout_alignStart="@+id/addressTextView"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:id="@+id/view2"
+            android:background="@android:color/darker_gray"
+            android:layout_height="2dp" />
+       
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_deskripsi"
+                android:id="@+id/iconDate" />
+            <TextView
+                android:text="Deskripsi Tambal Ban"
+                android:layout_marginLeft="8dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/iconDate"
+                android:id="@+id/descriptionLabel" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/descriptionEditText"
+                android:layout_below="@+id/descriptionLabel"
+                android:inputType="textMultiLine"
+                android:lines="2"
+                android:ems="10"
+                android:layout_alignStart="@+id/descriptionLabel" />
+        </RelativeLayout>
+       
+        <View
+            android:layout_width="match_parent"
+            android:id="@+id/view3"
+            android:background="@android:color/darker_gray"
+            android:layout_height="2dp" />
+       
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_profile"
+                android:id="@+id/iconPemilik" />
+            <TextView
+                android:text="Pemilik"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toEndOf="@+id/iconPemilik"
+                android:id="@+id/speakerLabel" />
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/speakerLabel"
+                android:layout_toEndOf="@+id/iconSpeaker"
+                android:id="@+id/pemilikEditText" />
+        </RelativeLayout>
+       
+        <View
+            android:layout_width="match_parent"
+            android:id="@+id/view4"
+            android:background="@android:color/darker_gray"
+            android:layout_height="2dp" />
+       
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_clock"
+                android:id="@+id/iconLocation" />
+            <TextView
+                android:text="Jam Buka"
+                android:textStyle="bold"
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/iconLocation"
+                android:id="@+id/jamTextView" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/jamEditText"
+                android:layout_below="@id/jamTextView"
+                android:layout_alignStart="@id/jamTextView"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/iconLatitude"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Set Latitude"
+                android:textStyle="bold"
+                android:layout_below="@id/iconLatitude"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@id/iconLatitude"
+                android:id="@+id/latitudeTextView"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/latitudeEditText"
+                android:layout_below="@id/latitudeTextView"
+                android:layout_alignStart="@id/latitudeTextView"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/iconLong"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Set Longitude"
+                android:textStyle="bold"
+                android:layout_below="@id/iconLong"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@id/iconLong"
+                android:id="@+id/longTextView"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/longEditText"
+                android:layout_below="@id/longEditText"
+                android:layout_alignStart="@id/longTextView"/>
+        </RelativeLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:id="@+id/button3"
+            android:layout_below="@+id/longEditText"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:id="@+id/button2"
+             />
+
+    </LinearLayout>
+</RelativeLayout>
